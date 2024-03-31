@@ -1,8 +1,8 @@
 {
   "name": "proto-photon",
-  "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "demon": "nodemon server.js",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -10,6 +10,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.5.12"
-  }
+    "@supabase/supabase-js": "^2.41.1",
+    "astro": "^4.5.12",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  },
+  "description": "```sh npm create astro@latest -- --template basics ```",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
